@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Web.Script.Serialization;
 namespace Test
@@ -87,7 +88,7 @@ namespace Test
             watch3.Stop();
             System.Console.WriteLine("Json.Net Deserialize: " + watch3.ElapsedMilliseconds);
 
-            System.Console.ReadLine();
+
         }
         public static string serialize(List<Student> list)
         {
