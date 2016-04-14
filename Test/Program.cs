@@ -11,6 +11,7 @@ namespace Test
             List<Student> list = new List<Student>
             {
                 new Student() { Rollno = 1, Name = "tim" ,DOB=DateTime.Now},
+                new Student() { Rollno = 2, Name = "bob" ,DOB=DateTime.Now},
                 new Student() { Rollno = 1, Name = "tim" ,DOB=DateTime.Now},
                 new Student() { Rollno = 2, Name = "bob" ,DOB=DateTime.Now},
                 new Student() { Rollno = 1, Name = "tim" ,DOB=DateTime.Now},
