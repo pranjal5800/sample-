@@ -89,7 +89,7 @@ namespace Test
             watch3.Stop();
             System.Console.WriteLine("Json.Net Deserialize: " + watch3.ElapsedMilliseconds);
 
-            System.Console.ReadLine();
+
         }
         public static string serialize(List<Student> list)
         {
